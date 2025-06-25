@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #000;
+}
+
+.post {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  padding: 5px 10px;
+  font-size: 30px;
+}
+
+.user-text {
+  font-size: 14px;
+}
+
+.menu i {
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* IMAGEN PRINCIPAL */
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* BARRA DE ACCIONES */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.post-actions i {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.right-icon i {
+  margin-right: 0;
+}
+
+/* LIKES Y DESCRIPCIÓN */
+.likes,
+.description {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.likes {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #333;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
